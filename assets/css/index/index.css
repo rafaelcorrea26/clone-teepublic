@@ -1,2 +1,2 @@
 @import '../global/global.css';
-@import 'partials/nav.css';
+@import './header/partials/nav.css';
