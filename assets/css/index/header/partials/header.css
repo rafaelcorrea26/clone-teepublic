@@ -1,0 +1,63 @@
+/* Estilo básico para o menu de navegação */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    float: left;
+}
+
+.menu > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+/* Estilo para o menu suspenso */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu > li {
+    float: none;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
